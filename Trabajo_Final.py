@@ -7,8 +7,8 @@ from io import BytesIO
 import requests
 
 # Cargar los datos
-file_path = "C:/Users/kema0/OneDrive/Documents/Maestria/4to Semestre/Seminario de profundizacion 1/Trabajo final/Students_Grading_Dataset.csv"
-df = pd.read_csv(file_path)
+df = pd.read_csv("Students_Grading_Dataset.csv")
+
 
 st.subheader("Análisis del impacto de variables personales, académicas y conductuales sobre el rendimiento académico de los estudiantes de diferentes departamentos universitarios")
 
